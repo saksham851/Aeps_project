@@ -1,8 +1,8 @@
-import React from 'react';
+import React from 'react'
 
-const ContactUs = () => {
-    return (
-        <div>
+const Contactus = () => {
+  return (
+   <>
             {/* Contact Section */}
             <section className="py-12 bg-gray-100">
                 <div className="container mx-auto">
@@ -66,10 +66,8 @@ const ContactUs = () => {
                     </div>
                 </div>
             </section>
-        </div>
-    );
+   </>
+  )
 }
 
-export default ContactUs;
-
-
+export default Contactus
